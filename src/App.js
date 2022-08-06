@@ -2,7 +2,7 @@
 import './App.css';
 
 import MainRouter from './MainRouter';
-import store from './redux/stor';
+import store from './redux/rtk/store';
 import { Provider } from 'react-redux';
 
 
