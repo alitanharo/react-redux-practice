@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Header from "./components/Header";
 import Post from "./pages/Post";
 import Users from "./pages/Users";
+import Todo from "./pages/Todo";
 
 
 
@@ -24,6 +25,7 @@ const MainRouter = () => {
             <Route path="/" element={<Home />} />
             <Route path="/post" element={<Post />} />
             <Route path="/users" element={<Users/>} />
+            <Route path="/todo" element={<Todo />} />
             
 
         </Routes>
